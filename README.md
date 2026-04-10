@@ -141,5 +141,5 @@ Projet développé dans le cadre de **AGRE AGENCY**.
 ---
 
 <p align="center">
-  <strong style="color: #D4AF37;">✨ Luxe, Élégance, Modernité ✨</strong>
+  <strong style="color: #D4AF37;"> Luxe, Élégance, Modernité </strong>
 </p>
