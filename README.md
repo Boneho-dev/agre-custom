@@ -95,28 +95,13 @@ http://localhost/agre-custom/
 
 ---
 
-## 🌐 Hébergement InfinityFree
+## 🌐 Déploiement
 
-Le projet est hébergé gratuitement et à vie sur **InfinityFree**.
+Le projet est déployé sur une architecture LAMP (Linux, Apache, MySQL, PHP).
 
-### Configuration InfinityFree
-
-1. Créer un compte sur [infinityfree.net](https://infinityfree.net)
-2. Créer un nouveau site avec sous-domaine gratuit
-3. Utiliser le FTP ou le File Manager pour uploader les fichiers
-4. Créer la base de données MySQL depuis le panel de contrôle
-5. Configurer les identifiants dans `includes/db.php`
-
-### Identifiants de connexion
-
-Remplacez dans `includes/db.php` :
-
-```php
-$host     = 'sqlXXX.epizy.com';  // Votre host InfinityFree
-$dbname   = 'epiz_XXXXXX_agre';   // Votre nom de base
-$user     = 'epiz_XXXXXX';        // Votre utilisateur
-$password = 'votre_mot_de_passe'; // Votre mot de passe
-```
+- **Environnement** : Production
+- **Gestion de base de données** : Serveur MySQL distant avec accès sécurisé via PDO
+- **Transfert** : Déploiement via protocole FTP sécurisé
 
 ---
 
