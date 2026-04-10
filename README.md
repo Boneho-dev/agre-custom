@@ -1,4 +1,4 @@
-#  AGRE Custom
+# AGRE Custom
 
 > **E-commerce de Luxe pour Enfants** - Une expérience d'achat haut de gamme, élégante et moderne.
 
@@ -13,11 +13,11 @@
 
 **AGRE Custom** est une plateforme e-commerce complète dédiée aux vêtements de luxe pour enfants. Conçue avec une approche "mobile-first" et une esthétique raffinée, elle offre :
 
--  **Catalogue produit** avec catégories (Manteaux, Accessoires, Écharpes)
--  **Panier d'achat** dynamique avec sessions PHP
--  **Processus de checkout** sécurisé et fluide
+- **Catalogue produit** avec catégories (Manteaux, Accessoires, Écharpes)
+- **Panier d'achat** dynamique avec sessions PHP
+- **Processus de checkout** sécurisé et fluide
 - **Dashboard Admin** pour la gestion des commandes
--  **Design responsive** 100% adapté mobile
+- **Design responsive** 100% adapté mobile
 
 ### Identité visuelle
 
@@ -27,7 +27,7 @@
 
 ---
 
-##  Stack Technique
+## Stack Technique
 
 | Couche              | Technologie                         |
 | ------------------- | ----------------------------------- |
@@ -59,7 +59,7 @@ agre-custom/
 
 ---
 
-##  Installation locale (XAMPP)
+## Installation locale (XAMPP)
 
 ### Prérequis
 
@@ -95,11 +95,7 @@ http://localhost/agre-custom/
 
 ---
 
-<<<<<<< HEAD
-##  Déploiement Railway
-=======
 ## 🌐 Hébergement InfinityFree
->>>>>>> 4f7eff0 (docs: update README for InfinityFree hosting and simplify DB config)
 
 Le projet est hébergé gratuitement et à vie sur **InfinityFree**.
 
@@ -124,7 +120,7 @@ $password = 'votre_mot_de_passe'; // Votre mot de passe
 
 ---
 
-##  Développeur
+## Développeur
 
 **NIONDJUI BONEHO ANGE-KEVIN AGRE**
 
@@ -137,16 +133,6 @@ $password = 'votre_mot_de_passe'; // Votre mot de passe
 
 ## 📝 Fonctionnalités Clés
 
-<<<<<<< HEAD
-| Fonctionnalité | Description |
-|----------------|-------------|
-|  **Sessions PHP** | Panier persistant entre les pages |
-|  **Base de données** | Stockage des commandes et clients |
-|  **Responsive** | Parfait sur mobile, tablette, desktop |
-|  **AJAX** | Ajout au panier sans rechargement |
-| **Animations** | Confettis, transitions élégantes |
-| **Sécurité** | Requêtes préparées PDO, validation données |
-=======
 | Fonctionnalité         | Description                                |
 | ---------------------- | ------------------------------------------ |
 | 🔐 **Sessions PHP**    | Panier persistant entre les pages          |
@@ -155,11 +141,10 @@ $password = 'votre_mot_de_passe'; // Votre mot de passe
 | ⚡ **AJAX**            | Ajout au panier sans rechargement          |
 | 🎊 **Animations**      | Confettis, transitions élégantes           |
 | 🛡️ **Sécurité**        | Requêtes préparées PDO, validation données |
->>>>>>> 4f7eff0 (docs: update README for InfinityFree hosting and simplify DB config)
 
 ---
 
-##  License
+## 📄 License
 
 © 2026 **NIONDJUI BONEHO ANGE-KEVIN AGRE** - Tous droits réservés.
 
@@ -168,5 +153,5 @@ Projet développé dans le cadre de **AGRE AGENCY**.
 ---
 
 <p align="center">
-  <strong style="color: #D4AF37;"> Luxe, Élégance, Modernité </strong>
+  <strong style="color: #D4AF37;">✨ Luxe, Élégance, Modernité ✨</strong>
 </p>
