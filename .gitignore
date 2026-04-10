@@ -1,0 +1,136 @@
+# ================================================
+# AGRE Custom - GitIgnore Configuration
+# ================================================
+
+# -----------------------------------------------
+# Operating System Files
+# -----------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# -----------------------------------------------
+# PHP & Web Server
+# -----------------------------------------------
+# Log files
+*.log
+logs/
+error_log
+access_log
+
+# Temporary files
+tmp/
+temp/
+cache/
+*.tmp
+*.temp
+
+# Session files (if stored locally)
+sessions/
+
+# -----------------------------------------------
+# XAMPP Specific
+# -----------------------------------------------
+# XAMPP control files
+xampp/
+htdocs_backup/
+
+# -----------------------------------------------
+# Security - Environment & Config
+# -----------------------------------------------
+# Environment variables (sensitive data)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Config files with passwords
+config.php.bak
+includes/config.local.php
+
+# -----------------------------------------------
+# IDE & Editor
+# -----------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PHPStorm / JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------
+# Dependencies & Build
+# -----------------------------------------------
+# Composer
+vendor/
+composer.lock
+
+# Node.js (if ever added)
+node_modules/
+package-lock.json
+yarn.lock
+
+# -----------------------------------------------
+# Media & Uploads (if created locally)
+# -----------------------------------------------
+# Uncomment if you add upload functionality
+# uploads/
+# assets/uploads/
+
+# -----------------------------------------------
+# Database
+# -----------------------------------------------
+# SQL dumps (if created for backup)
+*.sql
+*.sql.gz
+database_backup/
+
+# -----------------------------------------------
+# Other
+# -----------------------------------------------
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Patch files
+*.patch
+
+# -----------------------------------------------
+# Keep Important Files
+# -----------------------------------------------
+# Ensure these are NOT ignored
+!.gitkeep
+!README.md
+!LICENSE

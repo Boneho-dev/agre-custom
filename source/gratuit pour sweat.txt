@@ -1,0 +1,43 @@
+Image libre service : https://www.freepik.com/
+
+
+ <div class="bottom"></div>
+
+      <div class="col-2">
+        <img src="img_2/echap_2-min.jpg" alt="Bonnet et gants assortis enfant">
+        <h4>Chemises</h4>
+        <div class="icons">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>50€</p>
+      </div>
+      <div class="col-2">
+        <img src="img_2/echap_3-min.jpg" alt="Bonnet et gants assortis enfant">
+        <h4>Chemises</h4>
+        <div class="icons">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>50€</p>
+      </div>
+
+      <div class="col-2">
+        <img src="img_2/echap_2-min.jpg" alt="Bonnet et gants assortis enfant">
+        <h4>Chemises</h4>
+        <div class="icons">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>50€</p>
+      </div>
+    </div>
