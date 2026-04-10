@@ -29,13 +29,13 @@
 
 ##  Stack Technique
 
-| Couche | Technologie |
-|--------|-------------|
-| **Backend** | PHP 8.0+ (Procédural avec includes) |
-| **Base de données** | MySQL 8.0 avec PDO |
-| **Frontend** | TailwindCSS 3.0 + Font Awesome |
-| **Session** | PHP Native Sessions |
-| **Déploiement** | Railway / XAMPP |
+| Couche              | Technologie                         |
+| ------------------- | ----------------------------------- |
+| **Backend**         | PHP 8.0+ (Procédural avec includes) |
+| **Base de données** | MySQL 8.0 avec PDO                  |
+| **Frontend**        | TailwindCSS 3.0 + Font Awesome      |
+| **Session**         | PHP Native Sessions                 |
+| **Déploiement**     | InfinityFree / XAMPP                |
 
 ### 📁 Architecture
 
@@ -62,49 +62,65 @@ agre-custom/
 ##  Installation locale (XAMPP)
 
 ### Prérequis
+
 - XAMPP avec PHP 8.0+ et MySQL
 - Navigateur moderne
 
 ### Étapes
 
 1. **Cloner le projet** dans `C:\xampp\htdocs\` :
+
 ```bash
 cd C:\xampp\htdocs\
 git clone https://github.com/votre-username/agre-custom.git
 ```
 
 2. **Créer la base de données** :
+
 ```sql
 CREATE DATABASE agre_custom;
 ```
 
 3. **Importer les tables** (fichier SQL à créer selon vos besoins) :
+
 ```sql
 -- Tables requises : orders, order_items
 ```
 
 4. **Accéder au site** :
+
 ```
 http://localhost/agre-custom/
 ```
 
 ---
 
+<<<<<<< HEAD
 ##  Déploiement Railway
+=======
+## 🌐 Hébergement InfinityFree
+>>>>>>> 4f7eff0 (docs: update README for InfinityFree hosting and simplify DB config)
 
-Le projet est configuré pour fonctionner sur **Railway** avec variables d'environnement :
+Le projet est hébergé gratuitement et à vie sur **InfinityFree**.
 
-### Variables requises
-```env
-MYSQLHOST=your-railway-host
-MYSQLPORT=3306
-MYSQLDATABASE=agre_custom
-MYSQLUSER=root
-MYSQLPASSWORD=your-password
+### Configuration InfinityFree
+
+1. Créer un compte sur [infinityfree.net](https://infinityfree.net)
+2. Créer un nouveau site avec sous-domaine gratuit
+3. Utiliser le FTP ou le File Manager pour uploader les fichiers
+4. Créer la base de données MySQL depuis le panel de contrôle
+5. Configurer les identifiants dans `includes/db.php`
+
+### Identifiants de connexion
+
+Remplacez dans `includes/db.php` :
+
+```php
+$host     = 'sqlXXX.epizy.com';  // Votre host InfinityFree
+$dbname   = 'epiz_XXXXXX_agre';   // Votre nom de base
+$user     = 'epiz_XXXXXX';        // Votre utilisateur
+$password = 'votre_mot_de_passe'; // Votre mot de passe
 ```
-
-### Déploiement automatique
-Connectez votre repo GitHub à Railway pour le déploiement continu.
 
 ---
 
@@ -121,6 +137,7 @@ Connectez votre repo GitHub à Railway pour le déploiement continu.
 
 ## 📝 Fonctionnalités Clés
 
+<<<<<<< HEAD
 | Fonctionnalité | Description |
 |----------------|-------------|
 |  **Sessions PHP** | Panier persistant entre les pages |
@@ -129,6 +146,16 @@ Connectez votre repo GitHub à Railway pour le déploiement continu.
 |  **AJAX** | Ajout au panier sans rechargement |
 | **Animations** | Confettis, transitions élégantes |
 | **Sécurité** | Requêtes préparées PDO, validation données |
+=======
+| Fonctionnalité         | Description                                |
+| ---------------------- | ------------------------------------------ |
+| 🔐 **Sessions PHP**    | Panier persistant entre les pages          |
+| 💾 **Base de données** | Stockage des commandes et clients          |
+| 📱 **Responsive**      | Parfait sur mobile, tablette, desktop      |
+| ⚡ **AJAX**            | Ajout au panier sans rechargement          |
+| 🎊 **Animations**      | Confettis, transitions élégantes           |
+| 🛡️ **Sécurité**        | Requêtes préparées PDO, validation données |
+>>>>>>> 4f7eff0 (docs: update README for InfinityFree hosting and simplify DB config)
 
 ---
 

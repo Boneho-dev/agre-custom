@@ -1,17 +1,13 @@
 <?php
-// Configuration Railway (production) avec fallback localhost (développement)
-$host     = getenv('MYSQLHOST') ?: 'localhost';
-$port     = getenv('MYSQLPORT') ?: '3306';
-$dbname   = getenv('MYSQLDATABASE') ?: 'agre_custom';
-$user     = getenv('MYSQLUSER') ?: 'root';
-$password = getenv('MYSQLPASSWORD') ?: '';
+// Configuration MySQL - Modifier avec vos accès InfinityFree
+$host     = 'localhost';      // Remplacer par : sqlXXX.epizy.com (InfinityFree)
+$dbname   = 'agre_custom';    // Remplacer par : epiz_XXXXXX_agre (InfinityFree)
+$user     = 'root';           // Remplacer par : epiz_XXXXXX (InfinityFree)
+$password = '';               // Remplacer par : votre_mot_de_passe (InfinityFree)
 
 try {
-    // Construction du DSN avec port si disponible
-    $dsn = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
-
     $pdo = new PDO(
-        $dsn,
+        "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
         $user,
         $password,
         [
