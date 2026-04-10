@@ -1,12 +1,17 @@
 <?php
-$host     = 'localhost';
-$dbname   = 'agre_custom';
-$user     = 'root';
-$password = '';
+// Configuration Railway (production) avec fallback localhost (développement)
+$host     = getenv('MYSQLHOST') ?: 'localhost';
+$port     = getenv('MYSQLPORT') ?: '3306';
+$dbname   = getenv('MYSQLDATABASE') ?: 'agre_custom';
+$user     = getenv('MYSQLUSER') ?: 'root';
+$password = getenv('MYSQLPASSWORD') ?: '';
 
 try {
+    // Construction du DSN avec port si disponible
+    $dsn = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
+
     $pdo = new PDO(
-        "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
+        $dsn,
         $user,
         $password,
         [
@@ -16,5 +21,6 @@ try {
         ]
     );
 } catch (PDOException $e) {
-    die('Erreur de connexion à la base de données : ' . $e->getMessage());
+    error_log('Database connection error: ' . $e->getMessage());
+    die('Erreur de connexion à la base de données. Veuillez réessayer plus tard.');
 }
