@@ -1,4 +1,4 @@
-# 🏛️ AGRE Custom
+#  AGRE Custom
 
 > **E-commerce de Luxe pour Enfants** - Une expérience d'achat haut de gamme, élégante et moderne.
 
@@ -9,17 +9,17 @@
 
 ---
 
-## ✨ À propos du projet
+## À propos du projet
 
 **AGRE Custom** est une plateforme e-commerce complète dédiée aux vêtements de luxe pour enfants. Conçue avec une approche "mobile-first" et une esthétique raffinée, elle offre :
 
-- 🛍️ **Catalogue produit** avec catégories (Manteaux, Accessoires, Écharpes)
-- 🛒 **Panier d'achat** dynamique avec sessions PHP
-- 💳 **Processus de checkout** sécurisé et fluide
-- 📊 **Dashboard Admin** pour la gestion des commandes
-- 📱 **Design responsive** 100% adapté mobile
+-  **Catalogue produit** avec catégories (Manteaux, Accessoires, Écharpes)
+-  **Panier d'achat** dynamique avec sessions PHP
+-  **Processus de checkout** sécurisé et fluide
+- **Dashboard Admin** pour la gestion des commandes
+-  **Design responsive** 100% adapté mobile
 
-### 🎨 Identité visuelle
+### Identité visuelle
 
 - **Couleur principale** : Or `#D4AF37` (Luxury Gold)
 - **Palette** : Noir Charbon `#1A1A1A`, Crème `#F9F7F2`, Beige `#E8E0D5`
@@ -27,7 +27,7 @@
 
 ---
 
-## 🚀 Stack Technique
+##  Stack Technique
 
 | Couche | Technologie |
 |--------|-------------|
@@ -59,7 +59,7 @@ agre-custom/
 
 ---
 
-## 🛠️ Installation locale (XAMPP)
+##  Installation locale (XAMPP)
 
 ### Prérequis
 - XAMPP avec PHP 8.0+ et MySQL
@@ -90,7 +90,7 @@ http://localhost/agre-custom/
 
 ---
 
-## 🌐 Déploiement Railway
+##  Déploiement Railway
 
 Le projet est configuré pour fonctionner sur **Railway** avec variables d'environnement :
 
@@ -108,7 +108,7 @@ Connectez votre repo GitHub à Railway pour le déploiement continu.
 
 ---
 
-## 👨‍💻 Développeur
+##  Développeur
 
 **NIONDJUI BONEHO ANGE-KEVIN AGRE**
 
@@ -123,16 +123,16 @@ Connectez votre repo GitHub à Railway pour le déploiement continu.
 
 | Fonctionnalité | Description |
 |----------------|-------------|
-| 🔐 **Sessions PHP** | Panier persistant entre les pages |
-| 💾 **Base de données** | Stockage des commandes et clients |
-| 📱 **Responsive** | Parfait sur mobile, tablette, desktop |
-| ⚡ **AJAX** | Ajout au panier sans rechargement |
-| 🎊 **Animations** | Confettis, transitions élégantes |
-| 🛡️ **Sécurité** | Requêtes préparées PDO, validation données |
+|  **Sessions PHP** | Panier persistant entre les pages |
+|  **Base de données** | Stockage des commandes et clients |
+|  **Responsive** | Parfait sur mobile, tablette, desktop |
+|  **AJAX** | Ajout au panier sans rechargement |
+| **Animations** | Confettis, transitions élégantes |
+| **Sécurité** | Requêtes préparées PDO, validation données |
 
 ---
 
-## 📄 License
+##  License
 
 © 2026 **NIONDJUI BONEHO ANGE-KEVIN AGRE** - Tous droits réservés.
 
